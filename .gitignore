@@ -1,13 +1,78 @@
-# Visual Studio
+############################
+# Visual Studio / VS Code
+############################
 .vs/
+.vscode/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Build outputs
+############################
+# Build Results
+############################
 bin/
 obj/
+Debug/
+Release/
+x64/
+x86/
+AnyCPU/
 
-# Other
+############################
+# .NET Core
+############################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+############################
+# ASP.NET Core
+############################
+appsettings.Development.json
+appsettings.Local.json
+
+############################
+# Entity Framework
+############################
+Migrations/*.Designer.cs
+Migrations/*.csproj.user
+
+############################
+# Logs
+############################
 *.log
+
+############################
+# OS files
+############################
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+############################
+# Environment variables
+############################
+.env
+.env.local
+.env.development
+.env.production
+
+############################
+# SQL / Database
+############################
+*.mdf
+*.ldf
+*.bak
+
+############################
+# NuGet
+############################
+*.nupkg
+packages/
+.nuget/
+
+############################
+# Test results
+############################
+TestResults/
