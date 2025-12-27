@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using UserProductAPI.Models;
 
 namespace UserProductAPI.Data
 {
@@ -8,5 +9,7 @@ namespace UserProductAPI.Data
         {
            
         }
+
+        public DbSet<User> Users { get; set; }
     }
 }
